@@ -1,6 +1,6 @@
 {
   "name": "linkdesk-plugin-python",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "type": "module",
   "description": "Python 语言支持——独立仓可自足构建：build 走 @linkdesk/plugin-sdk 的 npm 通道。pyright 自声明（E6#15e：LSP 二进制随 zip 自带，壳打包链路不含它）",
