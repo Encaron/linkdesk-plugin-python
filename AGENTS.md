@@ -1,7 +1,7 @@
 # Python（python）——LinkDesk 插件仓
 
 > **本文件是给在这个仓里干活的 AI 看的**（Claude Code / Codex / Cursor / …）。人看 `README.md`。
-> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`python`）。当前版本 `1.0.7`。
+> 插件身份的唯一来源 = `plugin.json` 顶层的 `pluginId`（本仓：`python`）。当前版本 `1.0.8`。
 
 ## 1. 这是什么
 
@@ -28,7 +28,6 @@ Python 语言支持。**纯声明式插件**：给编辑器挂 pyright LSP，自
 `src/index.tsx` 是**单文件**、返回 `null` 的声明式组件——**改它通常不需要写代码**，改的是 `plugin.json` 的 `contributes.langDefs`。
 
 
-**本仓没有 `i18n/`** —— 文案 key 就是中文原文，英文由语言包插件（`lang-defaults`）提供。
 
 - 🔴 LSP 命令是 `node node_modules/pyright/dist/pyright-langserver.js --stdio` —— `pyright` 是**真依赖**，打出来的 `.linkdesk-plugin` 必须把它带进去（别把它当成「只是类型包」）。
 - 它是 `pluginRole: "data"` 却有 `entry` 的形态：声明式插件也可以有 entry。
