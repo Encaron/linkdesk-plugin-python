@@ -1,22 +1,28 @@
 {
   "version": "1",
-  "updatedAt": "2026-09-30T02:47:40.372Z",
+  "updatedAt": "2026-09-30T03:47:01.028Z",
   "plugins": [
     {
       "id": "python",
       "name": "Python",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "description": "Python 语言支持——语法高亮、跨文件跳转、智能补全",
       "author": {
         "name": "官方"
       },
-      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/v1.0.7/resources/icon.svg",
+      "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/v1.0.8/resources/icon.svg",
       "iconSource": "url",
-      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/v1.0.7/README.md",
-      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-python/releases/download/v1.0.7/python.linkdesk-plugin",
-      "size": 6264086,
-      "publishedAt": "2026-09-30T02:47:40.372Z",
+      "readmeUrl": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/v1.0.8/README.md",
+      "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-python/releases/download/v1.0.8/python.linkdesk-plugin",
+      "size": 6264791,
+      "publishedAt": "2026-09-30T03:47:01.028Z",
       "versions": [
+        {
+          "version": "1.0.8",
+          "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-python/releases/download/v1.0.8/python.linkdesk-plugin",
+          "publishedAt": "2026-09-30T03:47:01.028Z",
+          "changelog": "- **自有翻译归位（E6#161「谁的仓谁译文」）**：本仓首次带自己的字典 `i18n/en.json` ＋ `contributes.i18n` 声明——插件名与声明的英文译名住本仓，不再依赖 `lang-defaults` 代管（跨仓追不上：文案在本仓声明、译名却在别的仓的字典里）。\n- **判据随 SDK 下发**：`@linkdesk/plugin-sdk` ^0.1.19 → **^0.1.61**——`npm run verify` 第 ⑧ 段「自有字典覆盖度」（manifest 渲染串缺口 🔴 / 源码 `t()` 缺口 ⚠️）由 `@linkdesk/plugin-sdk/own-dict-coverage` 判定（判据本体在 SDK，⛔ 不在本仓复制）。"
+        },
         {
           "version": "1.0.7",
           "downloadUrl": "https://github.com/Encaron/linkdesk-plugin-python/releases/download/v1.0.7/python.linkdesk-plugin",
