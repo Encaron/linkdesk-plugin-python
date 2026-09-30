@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "python",
   "name": "Python",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "icon": "resources/icon.svg",
   "description": "Python 语言支持——语法高亮、跨文件跳转、智能补全",
   "author": "官方",
@@ -13,12 +13,21 @@
     "langDefs": [
       {
         "id": "python",
-        "extensions": [".py", ".pyi"],
+        "extensions": [
+          ".py",
+          ".pyi"
+        ],
         "lsp": {
           "command": "node",
-          "args": ["node_modules/pyright/dist/pyright-langserver.js", "--stdio"]
+          "args": [
+            "node_modules/pyright/dist/pyright-langserver.js",
+            "--stdio"
+          ]
         }
       }
-    ]
+    ],
+    "i18n": {
+      "en": "i18n/en.json"
+    }
   }
 }

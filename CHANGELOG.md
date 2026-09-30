@@ -1,5 +1,10 @@
 # 更新日志
 
+## v1.0.8（2026-09-30）
+
+- **自有翻译归位（E6#161「谁的仓谁译文」）**：本仓首次带自己的字典 `i18n/en.json` ＋ `contributes.i18n` 声明——插件名与声明的英文译名住本仓，不再依赖 `lang-defaults` 代管（跨仓追不上：文案在本仓声明、译名却在别的仓的字典里）。
+- **判据随 SDK 下发**：`@linkdesk/plugin-sdk` ^0.1.19 → **^0.1.61**——`npm run verify` 第 ⑧ 段「自有字典覆盖度」（manifest 渲染串缺口 🔴 / 源码 `t()` 缺口 ⚠️）由 `@linkdesk/plugin-sdk/own-dict-coverage` 判定（判据本体在 SDK，⛔ 不在本仓复制）。
+
 ## v1.0.7（2026-09-30）
 
 - **README 里的场景封面「补全的窗」回来了**：`resources/cover.svg` 用了 `&nbsp;`——XML 只有 5 个预定义实体
