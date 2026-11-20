@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "python",
   "name": "Python",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "category": "development",
   "categories": ["runtime"],
   "icon": "resources/icon.svg",
