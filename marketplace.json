@@ -12,6 +12,10 @@
       },
       "icon": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/v1.0.10/resources/icon.svg",
       "iconSource": "url",
+      "cover": "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/HEAD/resources/cover.svg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Encaron/linkdesk-plugin-python/HEAD/resources/cover.svg"
+      ],
       "category": "development",
       "categories": [
         "runtime"
