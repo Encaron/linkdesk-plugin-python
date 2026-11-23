@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
   "pluginId": "python",
   "name": "Python",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "category": "development",
   "categories": ["runtime"],
   "icon": "resources/icon.svg",
@@ -30,6 +30,13 @@
     ],
     "i18n": {
       "en": "i18n/en.json"
+    }
+  },
+  "readme": {
+    "default": "README.md",
+    "locales": {
+      "zh": "README.md",
+      "en": "docs/readme/en.md"
     }
   }
 }
